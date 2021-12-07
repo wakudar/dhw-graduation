@@ -3,7 +3,7 @@
     <!-- <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <Header />
-    <Content />
+    <Content :course="course"/>
     <ScrollTopButton />
     <Footer />
   </div>
@@ -23,6 +23,11 @@ export default {
     Content,
     ScrollTopButton,
     Footer
+  },
+  data () {
+    return {
+      course: ''
+    }
   }
 }
 </script>

@@ -9,15 +9,15 @@
           Category
           <i class="fa fa-times-circle" @click="naviToggle"></i>
         </p>
-        <li><router-link to="/">TOP</router-link></li>
-        <li><router-link to="/web-designer">WEBデザイナー専攻</router-link></li>
-        <li><router-link to="/cg-creator">CGクリエイター専攻</router-link></li>
-        <li>CG GYM</li>
+        <li><router-link to="/" active-class="active">TOP</router-link></li>
+        <li><router-link to="/web-designer" active-class="active">WEBデザイナー専攻</router-link></li>
+        <li><router-link to="/movie-creator" active-class="active">動画クリエイター専攻</router-link></li>
+        <li><router-link to="/cg-creator" active-class="active">CG GYM</router-link></li>
         <hr />
         <p>Archives</p>
-        <li>2021</li>
-        <li>2020</li>
-        <li>2019</li>
+        <li><router-link to="/created2021" active-class="active">2021</router-link></li>
+        <li><router-link to="/created2020" active-class="active">2020</router-link></li>
+        <!-- <li>2019</li> -->
       </ul>
     </transition>
   </div>
@@ -28,12 +28,13 @@
     name: 'Menus',
     data () {
       return {
-        visible: false
+        visible: false,
+        isActive: 0
       }
     },
     methods: {
       naviToggle: function() {
-        this.visible = !this.visible;
+        this.visible = !this.visible
       }
     }
   }
@@ -80,9 +81,15 @@
   list-style: none;
   text-decoration: none;
 }
+.active {
+  color: black !important;
+  font-size: 1rem !important;
+  font-weight: bold;
+}
 .fa-times-circle {
   margin-left: 25px;
   font-size: 2.5rem;
+  cursor: pointer;
 }
 
 /* フェード処理 */ 
