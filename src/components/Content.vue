@@ -51,6 +51,7 @@ export default {
         { link: 'https://graduation-work.net/archives/202108yoshizato', img: '202108yoshizato.jpg', bname: "T's Barista", crname: '吉里', coname: 'WEBデザイナー', created: '2021/08' },
         { link: 'https://graduation-work.net/archives/202107uehara/monky.MP4', img: '202107uehara.jpg', bname: 'monky.mp4', crname: '上原', coname: '動画クリエイター', created: '2021/07' },
         { link: 'https://graduation-work.net/archives/202106fujiki/para-HTML', img: '202106fujiki.jpg', bname: 'PARAFUSE', crname: '藤木', coname: 'WEBデザイナー', created: '2021/06' },
+        { link: 'https://graduation-work.net/archives/202106okada/', img: '202106okada.jpg', bname: 'BukaRapi', crname: '岡田', coname: 'WEBデザイナー', created: '2021/06' },
         { link: 'https://graduation-work.net/archives/202105shigeoka/', img: '202105shigeoka.jpg', bname: '熊本博愛病院', crname: '重岡', coname: 'WEBデザイナー', created: '2021/05' },
         { link: 'https://graduation-work.net/archives/202011umezaki/portfolio.mp4', img: '202011umezaki.jpg', bname: '大栄通信施設株式会社PR動画', crname: '梅崎', coname: '動画クリエイター', created: '2020/11' }
       ]
