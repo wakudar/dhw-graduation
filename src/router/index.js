@@ -32,6 +32,14 @@ const routes = [
     component: () => import(/* webpackChunkName: "cg-creator" */ '../views/CGCreator.vue')
   },
   {
+    path: '/created2022',
+    name: '2022',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "cg-creator" */ '../views/CreatedAt2022.vue')
+  },
+  {
     path: '/created2021',
     name: '2021',
     // route level code-splitting

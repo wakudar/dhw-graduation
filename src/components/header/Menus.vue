@@ -15,6 +15,7 @@
         <li><router-link to="/cg-creator" active-class="active">CG GYM</router-link></li>
         <hr />
         <p>Archives</p>
+        <li><router-link to="/created2022" active-class="active">2022</router-link></li>
         <li><router-link to="/created2021" active-class="active">2021</router-link></li>
         <li><router-link to="/created2020" active-class="active">2020</router-link></li>
         <!-- <li>2019</li> -->

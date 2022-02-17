@@ -43,6 +43,7 @@ export default {
   data () {
     return {
       items : [
+        { link: 'https://graduation-work.net/archives/202201yonemura', img: '202201yonemura.jpg', bname: 'CatWalk', crname: '米村', coname: 'WEBデザイナー', created: '2022/01' },
         { link: 'https://kumadeji.jp', img: '202111yamamoto.jpg', bname: 'くまデジ', crname: '山本', coname: 'WEBデザイナー', created: '2021/11' },
         { link: 'https://graduation-work.net/archives/202111nishino/headermovie_re.mp4', img: '202111nishino-2.jpg', bname: '熊本リビング新聞社ヘッダー動画', crname: '西野', coname: '動画クリエイター', created: '2021/11' },
         { link: 'https://graduation-work.net/archives/202111nishino', img: '202111nishino.jpg', bname: '熊本リビング新聞社', crname: '西野', coname: 'WEBデザイナー', created: '2021/11' },
